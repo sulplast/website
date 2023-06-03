@@ -1,0 +1,30 @@
+@import 'compass';
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap');
+
+body {
+	font-weight: 500;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.box {
+	position: relative;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, .15) 0 1px 80px;
+	border-radius: 10px;
+
+	ul {
+		padding: 0;
+		list-style: none;
+
+		li a {
+			display: block;
+			padding: 10px 0;
+		}
+
+		.sub {
+			padding: 2px 0;
+			font-size: 80%;
+		}
+	}
+}

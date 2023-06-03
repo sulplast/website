@@ -1,0 +1,144 @@
+.app-carousel-container {
+	width: 100%;
+	height: auto;
+	min-height: 700px;
+	background: url('../images/carousel/background.jpg');
+	background-size: cover;
+
+	@media only screen and (min-width : 992px) {
+		min-height: 450px;
+	}
+
+	.container {
+		position: relative;
+		height: auto;
+		min-height: 700px;
+
+		@media only screen and (min-width : 992px) {
+			min-height: 450px;
+		}
+	}
+
+	.carousel-topics-container {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+
+		@media only screen and (min-width : 992px) {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	.carousel-topics {
+		position: relative;
+		width: 100%;
+		height: auto;
+
+		@media only screen and (min-width : 992px) {
+			width: 342px;
+			margin-left: auto;
+		}
+
+		.topic {
+			position: relative;
+			margin: 20px 0;
+			width: 100%;
+			min-height: 32px;
+			display: flex;
+			align-items: center;
+			z-index: 100;
+
+			@media only screen and (min-width : 992px) {
+				height: 64px;
+			}
+		}
+
+		.icon {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 32px;
+			height: 32px;
+			background: white url('../images/list-check.png') no-repeat center center;
+			background-size: 50%;
+			border-radius: 50%;
+			border: #ddd 4px solid;
+
+			@media only screen and (min-width : 992px) {
+				width: 64px;
+				height: 64px;
+				background-size: auto;
+			}
+		}
+		.text {
+			margin-left: 52px;
+			color: $color-primary;
+			font: normal 2.2rem 'latolight', sans-serif;
+
+			@media only screen and (min-width : 992px) {
+				margin-left: 94px;
+			}
+		}
+	}
+
+	.carousel-topics-background {
+		@media only screen and (min-width : 992px) {
+			position: absolute;
+			left: 32px;
+			top: -300px;
+			width: 500%;
+			height: 5000px;
+			background: #fff;
+			border-left: $color-primary 3px dotted;
+			z-index: 10;
+		}
+	}
+
+	.carousel-image {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		bottom: 0;
+
+		@media only screen and (min-width : 992px) {
+			left: 18%;
+			width: 608px;
+			height: 255px;
+		}
+	}
+
+	.carousel-text {
+		width: 100%;
+		height: auto;
+		margin-top: 74px;
+		text-align: center;
+
+		@media only screen and (min-width : 992px) {
+			width: 365px;
+			text-align: left;
+		}
+	}
+
+	h1 {
+		display: block;
+		margin: 0;
+		color: $color-primary;
+		font: normal 2.5em/6rem 'latoheavy', sans-serif;
+
+		@media only screen and (min-width : 992px) {
+			font: normal 3.55em/6rem 'latoheavy', sans-serif;
+		}
+	}
+
+	p {
+		color: $color-primary;
+		font: normal 2rem 'latolight', sans-serif;
+
+		strong {
+			color: $color-secondary;
+			font-family: 'latoheavy';
+		}
+	}
+}

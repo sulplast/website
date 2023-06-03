@@ -1,0 +1,26 @@
+<?php
+
+return [
+	'formulario_de_contato' => 'Contact form', 
+	'formulario_de_contato_descricao' => 'Fill out the form to contact Sulplast.', 
+	'formulario_de_contato_obrigatoriedade' => 'Fields marked with (*) are mandatory.', 
+	'form.nome' => 'Full name (*)', 
+	'form.email' => 'E-mail (*)', 
+	'form.telefone' => 'Phone number', 
+	'form.endereco' => 'Address', 
+	'form.bairro' => 'District', 
+	'form.cidade' => 'City', 
+	'form.estado' => 'State', 
+	'form.departamento' => 'Select a department (*)', 
+	'form.departamento.comercial' => 'Commercial', 
+	'form.departamento.rh' => 'Human Resources', 
+	'form.departamento.coq' => 'Quality and Environment Coordination', 
+	'form.mensagem' => 'Message', 
+	'form.submit' => 'Send message', 
+	'sidebar.telefones_para_contato' => 'Contact phones', 
+	'sidebar.email_para_contato' => 'Contact e-mail', 
+	'sidebar.mapa_localizacao' => 'Location Map', 
+	'sidebar.mapa_localizacao_descricao' => 'Find our address on the map.', 
+	'sidebar.trabalhe_conosco' => 'Work with us', 
+	'sidebar.trabalhe_conosco_descricao' => 'Interested in working at Sulplast? Send your resume.', 
+];

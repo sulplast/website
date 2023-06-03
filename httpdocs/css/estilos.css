@@ -1,0 +1,77 @@
+.cookies-container {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 500;
+}
+.cookies {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #03165b;
+    border-radius: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, .2) 0 1px 100px;
+    border: #fff 2px solid;
+    z-index: 100;
+}
+
+.cookies-text {
+    max-width: 70%;
+}
+
+.cookies-text a {
+    color: #fff !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 3px dashed #2de024;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-1 {
+    display: inline-block;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.my-2 {
+    display: inline-block;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.my-3 {
+    display: inline-block;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.nav .open > a {
+    background: none !important;
+}
+
+.dropdown-menu {
+    background: #041038;
+    padding: 15px;
+}
+.dropdown-menu .dropdown-item a {
+    padding: 4px 0;
+    width: 100%;
+}

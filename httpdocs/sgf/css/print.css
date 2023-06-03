@@ -1,0 +1,81 @@
+/* line 3, ../sass/print.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/print.scss */
+body {
+  font: normal 9px/1em 'Arial', Helvetica, sans-serif;
+}
+
+/* line 11, ../sass/print.scss */
+.content-header {
+  position: relative;
+  margin: 0 0 10px 0;
+  width: 100%;
+  height: auto;
+  display: table;
+  padding: 10px;
+  border: #000 4px solid;
+}
+/* line 23, ../sass/print.scss */
+.content-header .title {
+  position: relative;
+  float: left;
+  width: 40%;
+  height: auto;
+}
+/* line 30, ../sass/print.scss */
+.content-header .date {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: auto;
+}
+
+/* line 38, ../sass/print.scss */
+.content-row {
+  position: relative;
+  margin: 0 0 10px 0;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: auto;
+  display: table;
+  padding: 5px 10px;
+  border: #000 2px solid;
+}
+
+/* line 51, ../sass/print.scss */
+.content-left {
+  position: relative;
+  float: left;
+  width: 30%;
+  height: auto;
+}
+
+/* line 57, ../sass/print.scss */
+.content-right {
+  position: relative;
+  float: right;
+  width: 70%;
+  height: auto;
+}
+
+/* line 64, ../sass/print.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 70, ../sass/print.scss */
+.table-bordered tr td, .table-bordered tr th {
+  border: #000 1px solid;
+}
+
+/* line 73, ../sass/print.scss */
+.text-tab {
+  padding-left: 10px;
+}

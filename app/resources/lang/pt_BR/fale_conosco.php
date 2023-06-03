@@ -1,0 +1,27 @@
+<?php
+
+return [
+	'formulario_de_contato' => 'Formulário de contato', 
+	'formulario_de_contato_descricao' => 'Você pode entrar em contato com a <strong>Sulplast</strong> por meio dos nossos canais de atendimento on-line.', 
+	// 'formulario_de_contato_descricao' => 'Preencha o formulário para entrar em contato com a Sulplast.', 
+	// 'formulario_de_contato_obrigatoriedade' => 'Os campos marcados com (*) são de preenchimento obrigatório.', 
+	'form.nome' => 'Nome completo (*)', 
+	'form.email' => 'E-mail (*)', 
+	'form.telefone' => 'Telefone (com DDD)', 
+	'form.endereco' => 'Endereço', 
+	'form.bairro' => 'Bairro', 
+	'form.cidade' => 'Cidade', 
+	'form.estado' => 'Estado', 
+	'form.departamento' => 'Selecione o departamento (*)', 
+	'form.departamento.comercial' => 'Comercial', 
+	'form.departamento.rh' => 'Recursos Humanos (RH)', 
+	'form.departamento.coq' => 'Coordenadoria da Qualidade e Meio Ambiente', 
+	'form.mensagem' => 'Deixe sua mensagem', 
+	'form.submit' => 'Enviar mensagem', 
+	'sidebar.telefones_para_contato' => 'Telefones para contato', 
+	'sidebar.email_para_contato' => 'E-mail para contato', 
+	'sidebar.mapa_localizacao' => 'Mapa de localização', 
+	'sidebar.mapa_localizacao_descricao' => 'Encontre nosso endereço pelo mapa.', 
+	'sidebar.trabalhe_conosco' => 'Trabalhe conosco', 
+	'sidebar.trabalhe_conosco_descricao' => 'Interessado em trabalhar na Sulplast? Envie seu currículo.', 
+];
